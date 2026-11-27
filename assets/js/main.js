@@ -1,5 +1,5 @@
-/**
- * [Business Name] — Concrete Website Template Scripts
+﻿/**
+ * Bobs Concrete â€” Concrete Website Template Scripts
  * Handles mobile nav, dropdowns, pop-up quote modal, FAQ accordions, and form demos.
  */
 (function () {
@@ -91,7 +91,7 @@
         feedback.textContent =
           'Thank you, ' +
           nameVal +
-          '! Your estimate request has been received by [Business Name]. A concrete specialist will contact you within [Response Time]. For immediate assistance, call [Phone Number].';
+          '! Your estimate request has been received by Bobs Concrete. A concrete specialist will contact you within [Response Time]. For immediate assistance, call [Phone Number].';
         feedback.classList.add('visible');
       }
       form.reset();
