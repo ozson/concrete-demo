@@ -1,5 +1,5 @@
-/**
- * Bobs Concrete &mdash; Concrete Website Template Scripts
+**
+ * Clacy Concrete &mdash; Concrete Website Template Scripts
  * Handles mobile nav, dropdowns, pop-up quote modal, FAQ accordions, and form demos.
  */
 (function () {
@@ -91,7 +91,7 @@
         feedback.textContent =
           'Thank you, ' +
           nameVal +
-          '! Your estimate request has been received by Bobs Concrete. A concrete specialist will contact you within [Response Time]. For immediate assistance, call [Phone Number].';
+          '! Your estimate request has been received by Clacy Concrete. A concrete specialist will contact you within 2 business hours. For immediate assistance, call 0477 855 582.';
         feedback.classList.add('visible');
       }
       form.reset();

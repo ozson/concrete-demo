@@ -1,24 +1,23 @@
-Item,Placeholder in Template,Category,Required?,Example Value,Notes
-Business Name,[Business Name],Branding,Yes,Bobs Concrete,Used in logo/header/footer/page titles and body copy
-City,[City],Location & SEO,Yes,Melbourne,Primary city for local SEO headings and metadata
-State / Region,[State],Location & SEO,Yes,VIC,State or province abbreviation
-Metro / County / Region,[County],Location & SEO,Yes,Greater Melbourne,Broader service region name
-Street Address,[Street Address],NAP / Footer,Yes,123 Industrial Way,Physical business or yard address for Google Business consistency
-Postcode / ZIP,[ZIP],NAP / Footer,Yes,3000,Primary postcode/ZIP
-Phone Number (Display),[Phone Number],Contact,Yes,(03) 9000 0000,Displayed in top bar/header/CTA buttons/footer
-Phone Link (Digits),[Phone Link],Contact,Yes,+61390000000,Used in tel: links so mobile users can tap to call
-Email Address,[Email],Contact & Forms,Yes,quotes@bobsconcrete.com.au,Displayed in footer and used for lead notifications
-License / ABN / Registration,[License Number],Trust Signals,Yes,VIC-CON-123456,Contractor license or registration number
-Years in Business,[Years in Business],Trust Signals,Yes,15,Used in hero badge and trust strip (e.g. 15+ Years)
-Business Hours,[Business Hours],Contact,Yes,Mon-Sat 7:00 AM - 6:00 PM,Displayed in top utility bar and footer
-Quote Response Time,[Response Time],Forms,Yes,2 business hours,Shown below submit buttons and in confirmation message
-Google Review Rating,[Review Rating],Social Proof,Yes,4.9,Pulled from their Google Business Profile
-Google Review Count,[Review Count],Social Proof,Yes,50,Total number of Google reviews (e.g. 50+)
-Google Maps / GBP Link,N/A (Add to footer/reviews),Social Proof,Yes,https://maps.google.com/?q=...,Link to their Google Business Profile for map/reviews
-3 Real Google Reviews,[Client Name 1-3],Social Proof,Yes,Mark T. / Sarah L. / David K.,Copy 3 real 5-star reviews from their Google Maps listing
-Service Radius (Miles/km),[Service Radius],Service Area,Yes,40,Radius around primary city for service-area.html
-Surrounding Suburbs / Cities,[Nearby City 1-7],Service Area,Yes,Geelong / Frankston / Dandenong,7 nearby towns/suburbs for local SEO pills
-Neighborhoods / Postcodes,[Neighborhood 1-2] / [ZIP Code 1-2],Service Area,Optional,Bayside / Eastern Suburbs,Specific local neighborhoods or postcodes
-Project Photos (Optional),assets/images/*,Media,Optional,Client's own patio/driveway photos,Replace stock demo photos with real local job photos once signed
-Logo & Brand Accent Color,styles.css (--color-accent),Branding,Optional,#d97706,Swap logo mark and CSS accent color to match client brand
-Form Backend Endpoint,action="#" in HTML / main.js,Lead Capture,Yes (on launch),Formspree / Web3Forms / Email webhook,Connect quote forms so leads go straight to client inbox
+Item,Placeholder in Template,Category,Status,Value Found / Current,Notes
+Business Name,[Business Name],Branding,Populated,Clacy Concrete,Pulled from Google Business Profile (Principal: Rhys Dillon Clacy)
+City,[City],Location & SEO,Populated,Melbourne,Primary metro reference (also services Gippsland & South East Melbourne)
+State / Region,[State],Location & SEO,Populated,VIC,Victoria
+Metro / Region,[County],Location & SEO,Populated,Gippsland & South East Melbourne,From GBP Search Overview & @clacyconcrete Instagram
+Phone Number (Display),[Phone Number],Contact,Populated,0477 855 582,Pulled from Google Business Profile
+Phone Link (Digits),[Phone Link],Contact,Populated,+61477855582,Formatted for mobile click-to-call tel: links
+Business Hours,[Business Hours],Contact,Populated,Open 24 Hours (Mon-Sun),Pulled from Google Business Profile
+Google Review Rating,[Review Rating],Social Proof,Populated,5.0,Pulled from Google Business Profile
+Google Review Count,[Review Count],Social Proof,Populated,7,Pulled from Google Business Profile (7 five-star reviews)
+Google Maps / GBP Link,N/A,Social Proof,Populated,https://share.google/IWneZFQd3rVNZxoHm,No website currently linked on GBP (great pitch point!)
+Top 3 Google Reviews,Testimonials,Social Proof,Populated,"Keith Van Rossen / April / Josiahh Hampson",Real 5-star reviews copied from Clacy Concrete GBP
+Quote Response Time,[Response Time],Forms,Populated,2 business hours,Default placeholder; confirm preferred turnaround with Rhys
+Email Address,[Email],Contact & Forms,Needed from Client,[Email],Not listed on GBP - ask Rhys for his quote email
+Street Address / Base,[Street Address],NAP / Footer,Needed from Client,[Street Address],No street address shown on GBP (regional pin in VIC)
+Postcode / ZIP,[ZIP],NAP / Footer,Needed from Client,[ZIP],Confirm primary business postcode (e.g. 3816 / 3810)
+License / ABN,[License Number],Trust Signals,Needed from Client,[License Number],Ask Rhys for ABN or VBA/trade registration number
+Years in Business,[Years in Business],Trust Signals,Needed from Client,[Years in Business],Not listed on GBP - ask Rhys how many years operating
+Surrounding Suburbs,[Nearby City 1-7],Service Area,Needed from Client,[Nearby City 1-7],Confirm top 7 Gippsland & South East Melbourne suburbs
+Neighborhoods / Postcodes,[Neighborhood 1-2] / [ZIP Code 1-2],Service Area,Optional,[Neighborhood 1-2],Confirm specific local areas to target
+Project Photos,assets/images/*,Media,Demo Images Ready,19 SEO concrete photos,Can swap with Clacy Concrete's own job photos from @clacyconcrete
+Logo & Brand Accent Color,styles.css (--color-accent),Branding,Optional,#d97706,Can match @clacyconcrete branding if client signs
+Form Backend Endpoint,action="#" in HTML / main.js,Lead Capture,Needed on Launch,Formspree / Web3Forms / Email webhook,Connect quote forms to Rhys's email on go-live
