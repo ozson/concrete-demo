@@ -1,4 +1,4 @@
-**
+/**
  * Clacy Concrete &mdash; Concrete Website Template Scripts
  * Handles mobile nav, dropdowns, pop-up quote modal, FAQ accordions, and form demos.
  */
