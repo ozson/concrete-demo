@@ -1,5 +1,5 @@
-﻿/**
- * Bobs Concrete â€” Concrete Website Template Scripts
+/**
+ * Bobs Concrete &mdash; Concrete Website Template Scripts
  * Handles mobile nav, dropdowns, pop-up quote modal, FAQ accordions, and form demos.
  */
 (function () {
