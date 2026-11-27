@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[Business Name] | Licensed Concrete Contractors in [City], [State]</title>
+  <meta name="description" content="[Business Name] provides expert concrete patios, concrete driveways, retaining walls, and stamped concrete in [City], [State] and [County]. Request your free estimate today.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <!-- Top Utility Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div>Serving [City], [State] &amp; [County] &bull; Licensed &amp; Insured ([License Number])</div>
+      <div>Hours: [Business Hours] &bull; Call: <a href="tel:[Phone Link]">[Phone Number]</a></div>
+    </div>
+  </div>
+
+  <!-- Sticky Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="site-logo">
+        <span class="site-logo-mark">C</span>
+        <span>[Business Name]</span>
+      </a>
+
+      <button class="mobile-menu-btn" aria-label="Toggle navigation" aria-expanded="false">&#9776;</button>
+
+      <nav class="main-nav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+          <li class="nav-item has-dropdown">
+            <a href="services.html" class="nav-link">Services &#9662;</a>
+            <ul class="nav-dropdown">
+              <li><a href="services.html">All Concrete Services</a></li>
+              <li><a href="concrete-patios.html">Concrete Patios</a></li>
+              <li><a href="concrete-driveways.html">Concrete Driveways</a></li>
+              <li><a href="retaining-walls.html">Retaining Walls</a></li>
+              <li><a href="stamped-concrete.html">Stamped Concrete</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="service-area.html" class="nav-link">Service Area</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta">
+        <a href="tel:[Phone Link]" class="header-phone">[Phone Number]</a>
+        <button type="button" class="btn btn-primary open-quote-modal">Get Free Quote</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section: Above-the-Fold Split Layout with Right-Hand Contact Form -->
+  <section class="hero" style="background-image: url('assets/images/stamped-concrete-patio-fire-pit-outdoor-living.jpg');">
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge">[Years in Business]+ Years Serving [City] &amp; [County]</div>
+        <h1>Trusted Concrete Contractors in [City], [State]</h1>
+        <p class="hero-lead">
+          [Business Name] delivers durable, precision-poured residential and commercial concrete work built to withstand [City] weather. From custom concrete patios and heavy-duty driveways to engineered retaining walls and decorative stamped concrete, we pour every slab with pride.
+        </p>
+        <ul class="hero-points">
+          <li>Licensed, Bonded &amp; Insured</li>
+          <li>4,000+ PSI Air-Entrained Mixes</li>
+          <li>Steel Rebar &amp; Gravel Base Prep</li>
+          <li>Upfront Written Estimates</li>
+        </ul>
+        <div class="hero-actions">
+          <a href="tel:[Phone Link]" class="btn btn-primary btn-lg">Call [Phone Number]</a>
+          <a href="services.html" class="btn btn-secondary btn-lg">Explore Our Services</a>
+        </div>
+      </div>
+
+      <!-- Right-Hand Contact Form (Above the Fold on Desktop) -->
+      <aside class="hero-form-card" aria-label="Request a Free Concrete Estimate">
+        <h2>Request Your Free Estimate</h2>
+        <p class="hero-form-sub">Tell us about your project in [City] and get a fast, no-obligation quote.</p>
+        <form class="estimate-form" action="#" method="post">
+          <div class="form-grid-2">
+            <div class="form-group">
+              <label for="hero-name">Full Name *</label>
+              <input type="text" id="hero-name" name="name" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <label for="hero-phone">Phone Number *</label>
+              <input type="tel" id="hero-phone" name="phone" class="form-control" placeholder="[Phone Number]" required>
+            </div>
+          </div>
+          <div class="form-grid-2">
+            <div class="form-group">
+              <label for="hero-email">Email Address *</label>
+              <input type="email" id="hero-email" name="email" class="form-control" placeholder="you@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="hero-zip">City / ZIP Code *</label>
+              <input type="text" id="hero-zip" name="zip" class="form-control" placeholder="[City] / [ZIP]" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="hero-service">Service Needed *</label>
+            <select id="hero-service" name="service" class="form-control" required>
+              <option value="">Select a Concrete Service...</option>
+              <option value="Concrete Patios">Concrete Patios</option>
+              <option value="Concrete Driveways">Concrete Driveways</option>
+              <option value="Retaining Walls">Retaining Walls</option>
+              <option value="Stamped Concrete">Stamped Concrete</option>
+              <option value="Other Concrete Work">Other Concrete Flatwork</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="hero-details">Project Details (Approx. Size &amp; Timeline)</label>
+            <textarea id="hero-details" name="details" class="form-control" placeholder="Example: 20x14 backyard patio or 2-car driveway replacement..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg btn-block">Get My Free Estimate</button>
+          <p class="form-trust-note">100% Free &amp; No Obligation &bull; Fast Response Within [Response Time]</p>
+          <div class="form-feedback" role="status" aria-live="polite"></div>
+        </form>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Trust Signals Strip -->
+  <section class="trust-strip" aria-label="Company Credentials">
+    <div class="container trust-grid">
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true">&#9733;</div>
+        <div>
+          <strong>[Review Rating] / 5.0 Rated</strong>
+          <span>[Review Count]+ Verified Local Reviews</span>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true">&#10003;</div>
+        <div>
+          <strong>Licensed &amp; Insured</strong>
+          <span>License #[License Number]</span>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true">&#9874;</div>
+        <div>
+          <strong>[Years in Business]+ Years Experience</strong>
+          <span>Residential &amp; Commercial Crews</span>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true">&#9881;</div>
+        <div>
+          <strong>Workmanship Warranty</strong>
+          <span>Written Guarantee on Every Pour</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Services Section -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Our Concrete Specialties</span>
+        <h2>Complete Concrete Installation &amp; Replacement Services in [City], [State]</h2>
+        <p>
+          Whether you are upgrading an aging driveway, expanding your backyard living space, or stabilizing a sloped yard, [Business Name] brings proven structural engineering and crisp finishing to every job site.
+        </p>
+      </div>
+
+      <div class="cards-grid-4">
+        <article class="service-card">
+          <img src="assets/images/stamped-concrete-patio-flagstone-pattern.png" alt="Custom concrete patio installation in [City], [State]" class="service-card-img">
+          <div class="service-card-body">
+            <h3>Concrete Patios</h3>
+            <p>
+              Transform your backyard into a low-maintenance outdoor retreat with broom-finished, exposed aggregate, or custom-shaped concrete patios built for entertaining and family gatherings.
+            </p>
+            <a href="concrete-patios.html" class="card-link">Explore Concrete Patios &rarr;</a>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <img src="assets/images/stamped-concrete-driveway-residential-installation.png" alt="Reinforced residential concrete driveway in [City]" class="service-card-img">
+          <div class="service-card-body">
+            <h3>Concrete Driveways</h3>
+            <p>
+              Heavy-duty residential and commercial concrete driveways engineered with compacted aggregate sub-bases, steel rebar reinforcement, and proper drainage slope to prevent premature cracking.
+            </p>
+            <a href="concrete-driveways.html" class="card-link">Explore Concrete Driveways &rarr;</a>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <img src="assets/images/segmented-concrete-retaining-wall-curved-blocks.png" alt="Engineered concrete retaining wall in [City], [State]" class="service-card-img">
+          <div class="service-card-body">
+            <h3>Retaining Walls</h3>
+            <p>
+              Protect your property from soil erosion and create usable terraced yard space with poured-in-place or segmented concrete block retaining walls complete with behind-wall drainage systems.
+            </p>
+            <a href="retaining-walls.html" class="card-link">Explore Retaining Walls &rarr;</a>
+          </div>
+        </article>
+
+        <article class="service-card">
+          <img src="assets/images/decorative-stamped-concrete-walkway-brick-border.png" alt="Decorative stamped concrete walkway and patio in [City]" class="service-card-img">
+          <div class="service-card-body">
+            <h3>Stamped Concrete</h3>
+            <p>
+              Achieve the timeless look of natural flagstone, slate, cobblestone, or hardwood planks at a fraction of the cost with integrally colored, sealed stamped concrete surfaces.
+            </p>
+            <a href="stamped-concrete.html" class="card-link">Explore Stamped Concrete &rarr;</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- About & Why Choose Us (SEO Content Section) -->
+  <section class="section section-alt">
+    <div class="container split-section">
+      <div>
+        <span class="eyebrow">Why Homeowners Choose [Business Name]</span>
+        <h2>Built from the Ground Up: Sub-Base Prep, Rebar &amp; Precision Finishing</h2>
+        <p>
+          Any concrete contractor can pour wet concrete onto dirt, smooth it over, and leave before the real problems start. At [Business Name], we know that long-lasting concrete in [City], [State] is won or lost beneath the surface long before the ready-mix truck arrives.
+        </p>
+        <p>
+          Freeze-thaw cycles, expansive clay soils, heavy vehicles, and seasonal rainfall put enormous stress on exterior flatwork. That is why our crews excavate to proper depth, install and mechanically compact a crushed-stone sub-base, tie #3 or #4 steel rebar grids on chairs, and place 4,000+ PSI air-entrained concrete with strategically saw-cut control joints.
+        </p>
+        <p>
+          From your initial site walk-through to the final sealer coat and job-site cleanup, you work directly with an experienced project lead who communicates clearly, respects your landscaping, and delivers on schedule.
+        </p>
+        <button type="button" class="btn btn-primary open-quote-modal">Schedule Your Free Site Assessment</button>
+      </div>
+      <div class="split-image">
+        <img src="assets/images/concrete-slab-pump-pour-rebar-reinforcement.png" alt="Concrete crew pumping reinforced concrete over steel rebar grid">
+      </div>
+    </div>
+  </section>
+
+  <!-- Our 4-Step Process -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">How We Work</span>
+        <h2>Our Proven 4-Step Concrete Installation Process</h2>
+        <p>
+          We keep your concrete project straightforward, transparent, and stress-free from the first phone call to the final walkthrough.
+        </p>
+      </div>
+
+      <div class="process-grid">
+        <div class="process-step">
+          <div class="step-number">1</div>
+          <h3>On-Site Measurement &amp; Quote</h3>
+          <p>
+            We visit your property in [City] or [County], evaluate grading and drainage, discuss finish options, and deliver a clear, itemized written estimate with zero hidden fees.
+          </p>
+        </div>
+        <div class="process-step">
+          <div class="step-number">2</div>
+          <h3>Excavation &amp; Base Compaction</h3>
+          <p>
+            Our crew removes old concrete or sod, grades for positive water runoff away from your home, and compacts a crushed-gravel base so your new slab never settles unevenly.
+          </p>
+        </div>
+        <div class="process-step">
+          <div class="step-number">3</div>
+          <h3>Forming, Rebar &amp; Precision Pour</h3>
+          <p>
+            We set laser-leveled formwork, install steel rebar or wire mesh reinforcement, and pour high-strength ready-mix concrete tailored to your project's load requirements.
+          </p>
+        </div>
+        <div class="process-step">
+          <div class="step-number">4</div>
+          <h3>Finishing, Control Joints &amp; Sealing</h3>
+          <p>
+            After hand-troweling, brooming, or stamping, we cut clean control joints to manage natural shrinkage, apply protective curing sealers, and leave your yard spotless.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recent Work Gallery -->
+  <section class="section section-stone">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Recent Local Projects</span>
+        <h2>Craftsmanship You Can See Across [City] &amp; [County]</h2>
+        <p>
+          Explore examples of our residential flatwork, decorative stamped patios, reinforced driveways, and structural retaining walls.
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <figure class="gallery-item" style="margin:0;">
+          <img src="assets/images/stamped-concrete-patio-fire-pit-outdoor-living.jpg" alt="Stamped concrete patio with fire pit installed in [City]">
+          <figcaption class="gallery-caption">Ashlar Slate Stamped Patio &amp; Fire Pit — [City], [State]</figcaption>
+        </figure>
+        <figure class="gallery-item" style="margin:0;">
+          <img src="assets/images/stamped-concrete-driveway-residential-installation.png" alt="Charcoal stamped concrete driveway installation">
+          <figcaption class="gallery-caption">Charcoal Decorative Concrete Driveway — [Neighborhood/Suburb]</figcaption>
+        </figure>
+        <figure class="gallery-item" style="margin:0;">
+          <img src="assets/images/segmented-concrete-retaining-wall-curved-blocks.png" alt="Curved segmented concrete block retaining wall">
+          <figcaption class="gallery-caption">Curved Segmental Retaining Wall — [City], [State]</figcaption>
+        </figure>
+        <figure class="gallery-item" style="margin:0;">
+          <img src="assets/images/wood-plank-stamped-concrete-patio-finish.png" alt="Wood plank stamped concrete patio finish">
+          <figcaption class="gallery-caption">Wood-Grain Stamped Concrete Porch — [County]</figcaption>
+        </figure>
+        <figure class="gallery-item" style="margin:0;">
+          <img src="assets/images/concrete-contractor-screeding-fresh-slab-form.jpg" alt="Concrete contractor screeding fresh slab formwork">
+          <figcaption class="gallery-caption">Precision Screeding &amp; Formwork — [City]</figcaption>
+        </figure>
+        <figure class="gallery-item" style="margin:0;">
+          <img src="assets/images/hand-troweling-smooth-concrete-finish.jpg" alt="Hand troweling smooth concrete slab finish">
+          <figcaption class="gallery-caption">Hand-Troweled Concrete Slab Finish — [City]</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Client Reviews</span>
+        <h2>What [City] Homeowners Say About [Business Name]</h2>
+      </div>
+      <div class="cards-grid-3">
+        <article class="testimonial-card">
+          <div class="stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>
+            "[Business Name] tore out our cracked 30-year-old driveway and poured a gorgeous new reinforced concrete driveway in three days. Drainage is night-and-day better and the crew left everything spotless."
+          </p>
+          <p class="testimonial-author">&mdash; [Client Name 1], [City], [State]</p>
+        </article>
+        <article class="testimonial-card">
+          <div class="stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>
+            "We hired [Business Name] for a stamped concrete patio and curved retaining wall in our backyard. They walked us through color and pattern samples and stayed right on budget."
+          </p>
+          <p class="testimonial-author">&mdash; [Client Name 2], [City], [State]</p>
+        </article>
+        <article class="testimonial-card">
+          <div class="stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>
+            "Prompt, honest, and true craftsmen. They explained why rebar spacing and gravel depth mattered when other contractors barely looked at the yard. Highly recommend for any concrete work."
+          </p>
+          <p class="testimonial-author">&mdash; [Client Name 3], [County]</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Common Questions</span>
+        <h2>Concrete Project FAQs for [City] Homeowners</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item open">
+          <button type="button" class="faq-question" aria-expanded="true">How much does a new concrete driveway or patio cost in [City], [State]?</button>
+          <div class="faq-answer">
+            Pricing depends on square footage, site access, tear-out requirements, slab thickness (typically 4 to 6 inches), reinforcement, and finish type (broom finish vs. decorative stamped concrete). We provide free, itemized on-site estimates so you know the exact investment upfront.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button type="button" class="faq-question" aria-expanded="false">How long before I can walk or drive on newly poured concrete?</button>
+          <div class="faq-answer">
+            In most weather conditions in [City], light foot traffic is safe after 24 to 48 hours. Passenger vehicles should stay off a new concrete driveway for at least 7 days, and heavy trucks or RVs should wait 14 to 28 days while the concrete reaches full design strength.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button type="button" class="faq-question" aria-expanded="false">Do you handle demolition and haul-away of old concrete?</button>
+          <div class="faq-answer">
+            Yes. Our crew handles complete demolition, excavation, and responsible haul-away of cracked driveways, sunken sidewalks, or failing retaining walls before preparing the new sub-base.
+          </div>
+        </div>
+        <div class="faq-item">
+          <button type="button" class="faq-question" aria-expanded="false">How do you prevent concrete from cracking or heaving?</button>
+          <div class="faq-answer">
+            While all concrete experiences minor shrinkage as it cures, we minimize random cracking through compacted crushed-rock bases, steel rebar reinforcement, air-entrained mixes for freeze-thaw durability, and properly spaced control joints.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Area Preview -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Local Service Area</span>
+        <h2>Proudly Serving [City] &amp; Surrounding Communities</h2>
+        <p>
+          Our concrete crews travel throughout [County] and nearby towns to deliver dependable residential and commercial concrete services.
+        </p>
+      </div>
+      <div class="area-grid" style="margin-bottom: 2rem;">
+        <div class="area-pill">[City], [State]</div>
+        <div class="area-pill">[Nearby City 1]</div>
+        <div class="area-pill">[Nearby City 2]</div>
+        <div class="area-pill">[Nearby City 3]</div>
+        <div class="area-pill">[Nearby City 4]</div>
+        <div class="area-pill">[Nearby City 5]</div>
+        <div class="area-pill">[Nearby City 6]</div>
+        <div class="area-pill">[County] &amp; Beyond</div>
+      </div>
+      <div style="text-align: center;">
+        <a href="service-area.html" class="btn btn-outline-dark">View Full Service Area &amp; Map Details</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bottom CTA Banner -->
+  <section class="cta-banner">
+    <div class="container">
+      <h2>Ready to Start Your Concrete Project in [City]?</h2>
+      <p>
+        Contact [Business Name] today for a free, no-pressure on-site estimate on concrete patios, driveways, retaining walls, or stamped concrete.
+      </p>
+      <div class="hero-actions" style="justify-content: center;">
+        <button type="button" class="btn btn-primary btn-lg open-quote-modal">Request Free Estimate</button>
+        <a href="tel:[Phone Link]" class="btn btn-secondary btn-lg">Call [Phone Number]</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>[Business Name]</h3>
+          <p>
+            Licensed and insured concrete contractors serving [City], [State], and [County] with durable flatwork, decorative stamped concrete, driveways, patios, and retaining walls.
+          </p>
+          <p><strong>License:</strong> [License Number]</p>
+        </div>
+        <div>
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services Overview</a></li>
+            <li><a href="service-area.html">Service Area</a></li>
+            <li><a href="#" class="open-quote-modal">Request a Quote</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Concrete Services</h4>
+          <ul>
+            <li><a href="concrete-patios.html">Concrete Patios</a></li>
+            <li><a href="concrete-driveways.html">Concrete Driveways</a></li>
+            <li><a href="retaining-walls.html">Retaining Walls</a></li>
+            <li><a href="stamped-concrete.html">Stamped Concrete</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact Us</h4>
+          <ul>
+            <li><strong>Phone:</strong> <a href="tel:[Phone Link]">[Phone Number]</a></li>
+            <li><strong>Email:</strong> <a href="mailto:[Email]">[Email]</a></li>
+            <li><strong>Address:</strong> [Street Address], [City], [State] [ZIP]</li>
+            <li><strong>Hours:</strong> [Business Hours]</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 [Business Name]. All Rights Reserved.</div>
+        <div>Concrete Contractors in [City], [State]</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Pop-up Quote Modal -->
+  <div id="quote-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog">
+      <button type="button" class="modal-close" aria-label="Close quote form">&times;</button>
+      <h2 id="modal-title">Get Your Free Quote Now</h2>
+      <p class="hero-form-sub">Fill out the form below and [Business Name] will reach out within [Response Time].</p>
+      <form class="estimate-form" action="#" method="post">
+        <div class="form-grid-2">
+          <div class="form-group">
+            <label for="modal-name">Full Name *</label>
+            <input type="text" id="modal-name" name="name" class="form-control" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <label for="modal-phone">Phone Number *</label>
+            <input type="tel" id="modal-phone" name="phone" class="form-control" placeholder="[Phone Number]" required>
+          </div>
+        </div>
+        <div class="form-grid-2">
+          <div class="form-group">
+            <label for="modal-email">Email Address *</label>
+            <input type="email" id="modal-email" name="email" class="form-control" placeholder="you@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="modal-zip">City / ZIP Code *</label>
+            <input type="text" id="modal-zip" name="zip" class="form-control" placeholder="[City] / [ZIP]" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="modal-service">Service Needed *</label>
+          <select id="modal-service" name="service" class="form-control" required>
+            <option value="">Select a Concrete Service...</option>
+            <option value="Concrete Patios">Concrete Patios</option>
+            <option value="Concrete Driveways">Concrete Driveways</option>
+            <option value="Retaining Walls">Retaining Walls</option>
+            <option value="Stamped Concrete">Stamped Concrete</option>
+            <option value="Other Concrete Work">Other Concrete Flatwork</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="modal-details">Project Details</label>
+          <textarea id="modal-details" name="details" class="form-control" placeholder="Tell us about your project dimensions, current surface, or preferred timeline..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg btn-block">Submit Quote Request</button>
+        <p class="form-trust-note">Licensed &amp; Insured &bull; Free On-Site Estimates in [City]</p>
+        <div class="form-feedback" role="status" aria-live="polite"></div>
+      </form>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
